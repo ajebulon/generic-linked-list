@@ -1,4 +1,6 @@
-# Generic Linked-List
+# Generic Linked-List in C
+
+Please refer to driver code to use it with a specific data structure.
 
 #### Build
 Run this command
