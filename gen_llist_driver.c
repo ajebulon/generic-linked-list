@@ -1,3 +1,14 @@
+/*
+ * DESCRIPTION :
+ *      Generic linked-list implementation in C
+ *
+ * ORIGINAL AUTHOR : 
+ *      ASAF ZEBULON (azeb.cc07@gmail.com)
+ *
+ * START DATE :
+ *      3 May 2021
+ */
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
