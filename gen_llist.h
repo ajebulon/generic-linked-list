@@ -50,5 +50,10 @@ void nodePoop(node_t **pHead);
  */
 void nodeDestroy(node_t **pHead);
 
+/*
+ * Pass the head pointer of the list
+ * This function is used to count the elements in the list
+ */
+int getNodeCount(node_t *pHead);
 
 #endif /* GEN_LLIST_H */

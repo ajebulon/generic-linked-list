@@ -127,3 +127,20 @@ void nodeDestroy(node_t **pHead)
 
     *pHead = NULL;
 }
+
+/*
+ * Pass the head pointer of the list
+ * This function is used to count the elements in the list
+ */
+int getNodeCount(node_t *pHead)
+{
+    int count = 0;
+    node_t *currentNode = pHead;
+
+    while (currentNode != NULL) {
+        count++;
+        currentNode = currentNode->next;
+    }
+
+    return count;
+}

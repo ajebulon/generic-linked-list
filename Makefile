@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS += -Wall -Werror
+CFLAGS += -Wall -Werror -ggdb3 -std=gnu99
 
 PROG_NAME = gen_llist
 
@@ -8,5 +8,5 @@ $(PROG_NAME): gen_llist_driver.o gen_llist.o
 
 .PHONY: clean
 clean:
-	rm *.o
-	rm $(PROG_NAME)
+	rm -rf *.o
+	rm -rf $(PROG_NAME)
